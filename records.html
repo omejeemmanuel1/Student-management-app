@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- <style type="text/css">
+		input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+			background-color: #eeee;
+			-webkit-appearance: none;
+
+		}
+	</style> -->
+</head>
+<body>
+	
+<div id="firstname" style="color: blue; word-spacing: 100px; font-size: 20px;"></div>
+<script type="text/javascript">
+	let firstname = [];
+	firstname = localStorage.getItem('Aptech-students');
+	document.getElementById('firstname').innerHTML = firstname;
+
+</script>
+</body>
+</html>

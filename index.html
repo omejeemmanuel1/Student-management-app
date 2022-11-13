@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<section class="container">
+		<header>
+			<h1>A Basic Student Management App</h1>
+		</header>
+		<article>
+			<h1>Welcome to Aptech Computer Education</h1>
+			<h3>Student's Data Entry Platform</h3>
+			<p>Please enter your details correctly in the form given below...</p>
+
+			<form id="formRe">
+				<span id="info" style="color: red;"></span>
+				<input type="text" id="txtFirstname" placeholder="Enter your firstname">
+				<input type="text" id="txtLastname" placeholder="Enter your lastname">
+				<input type="email" id="txtEmail" placeholder="Enter your Email">
+				<select id="txtCourse">
+					<option value="">Select course</option>
+					<option value="ADSE">ADSE</option>
+					<option value="Advanced web">Advanced web</option>
+					<option value="CCNA">CCNA</option>
+					<option value="CPISM">CPISM</option>
+					<option value="Multimedia">Multimedia</option>
+					<option value="Internet of Things">Internet of Things</option>
+				</select>
+				<textarea placeholder="Enter your address" id="txtAddress"></textarea>
+				<input type="submit" id="submitBtn" value="Register Student">
+
+			</form>
+			<a href="records.html" id="viewRec">View all records 
+			</a>
+			
+		</article>
+	<aside></aside>
+</section>
+<script src="js/chance.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
